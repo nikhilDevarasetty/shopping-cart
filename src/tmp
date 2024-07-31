@@ -1,0 +1,25 @@
+1. component lifecycle pahses
+  1. Mounting
+  2. Updating
+  3. Unmounting
+
+2. component lifecycle methods
+  Mounting
+    componentDidMount - class
+    useEffect(() => {}, [])
+
+  Updating
+    componentDidUpdate - class
+    useEffect(() => {}, [demo])
+  
+  Unmounting:
+    componentWillUnMount - class
+    useEffect(() => {
+      return () => {}
+    }, [])
+
+Axios:
+Get: headers
+Post: headers, payload
+Delete
+Patch, put
