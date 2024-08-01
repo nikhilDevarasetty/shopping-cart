@@ -26,3 +26,17 @@ Patch, put
 
 feature1
 feature2
+
+git commands:
+1. git init
+2. git commit -m [message in quotes]
+3. git log
+4. git remote -v
+5. git remote add [name] [url to remote repository]
+6. git push [remote name] [branch name]
+7. git branch -D [branch name]
+8. git push [remote name] [branch name] --delete
+9. git pull [remote name] [branch name]
+10. git stash -m [message]
+11. git stash list
+12. git stash apply
